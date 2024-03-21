@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{0092B60D-97EF-459A-9671-2ADCC1B640CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{0092B60D-97EF-459A-9671-2ADCC1B640CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{555A436C-0521-4CE1-BBE3-1F8318664A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{555A436C-0521-4CE1-BBE3-1F8318664A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{04843B9D-2587-4F96-947C-ECC36CEADD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{04843B9D-2587-4F96-947C-ECC36CEADD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{CDEBFDA5-1ED8-4C37-9B07-F329FA4845D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{CDEBFDA5-1ED8-4C37-9B07-F329FA4845D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{CE539547-C471-469D-9E62-1ADFA2D3D0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{CE539547-C471-469D-9E62-1ADFA2D3D0CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{8DD31B3D-D865-4355-8A25-81F34F58CAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{55524078-6B74-4572-98E1-119C30624472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B9B0CD18-6F91-4E9F-B5CD-C952BF656822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\AdoNetDemo.csproj", "{C2DDE49C-9781-40B3-8D74-0C8373FB8107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{CE539547-C471-469D-9E62-1ADFA2D3D0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE539547-C471-469D-9E62-1ADFA2D3D0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE539547-C471-469D-9E62-1ADFA2D3D0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD31B3D-D865-4355-8A25-81F34F58CAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD31B3D-D865-4355-8A25-81F34F58CAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD31B3D-D865-4355-8A25-81F34F58CAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD31B3D-D865-4355-8A25-81F34F58CAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55524078-6B74-4572-98E1-119C30624472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55524078-6B74-4572-98E1-119C30624472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55524078-6B74-4572-98E1-119C30624472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55524078-6B74-4572-98E1-119C30624472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B0CD18-6F91-4E9F-B5CD-C952BF656822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B0CD18-6F91-4E9F-B5CD-C952BF656822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B0CD18-6F91-4E9F-B5CD-C952BF656822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B0CD18-6F91-4E9F-B5CD-C952BF656822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DDE49C-9781-40B3-8D74-0C8373FB8107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DDE49C-9781-40B3-8D74-0C8373FB8107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DDE49C-9781-40B3-8D74-0C8373FB8107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DDE49C-9781-40B3-8D74-0C8373FB8107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
